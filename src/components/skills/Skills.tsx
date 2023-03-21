@@ -12,6 +12,9 @@ const SkillItem: FC<SkillI> = props => (
                     <div 
                         className="absolute w-1/2 top-0 left-0 border-b-10 border-b-skill-bg group-[.test]:border-b-blue border-l-4 border-l-transparent"
                     />
+                    <div 
+                        className="absolute w-1/2 top-0 h-[10px] left-1/4 group-[.test]:bg-blue"
+                    />
                     <div
                         className="absolute w-1/2 top-0 right-0 border-t-10 border-t-skill-bg group-[.test]:border-t-blue border-r-4 border-r-transparent"
                     />
