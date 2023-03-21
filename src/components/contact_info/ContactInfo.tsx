@@ -17,7 +17,7 @@ const CONTACT_INFO_ITEMS: ContactInfoItemI[] = [
     },
     {
         icon: PhoneIcon,
-        text: "989201771378",
+        text: "+989201771378",
     },
     {
         icon: LocationIcon,
