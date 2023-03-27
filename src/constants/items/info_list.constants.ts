@@ -6,7 +6,7 @@ export const INFO_LIST: InfoI[] = [
         list: [
             {
                 title: "Freelance and Personal Projects",
-                from: "November 2021",
+                from: "November 2020",
                 to: "Present",
                 works: [
                     "Build a website for a Pistachio selling company using expressjs",
@@ -34,8 +34,8 @@ export const INFO_LIST: InfoI[] = [
             },
             {
                 title: "Online Support, SabaIdea, Tehran",
-                from: "May 2021",
-                to: "November 2021",
+                from: "May 2020",
+                to: "November 2020",
                 works: [
                     "Was Online Support for Aparat Live, the most popular streaming service in Iran.",
                     "Worked from home due to corona.",
