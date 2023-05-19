@@ -33,6 +33,7 @@ function App() {
                                 {skill: "Typescript", ability: 4 },
                                 {skill: "Golang", ability: 4 },
                                 {skill: "Rust", ability: 4 },
+                                {skill: "WASM (Rust)", ability: 4 },
                                 {skill: "MongoDB", ability: 4 },
                                 {skill: "Angular", ability: 4 },
                                 {skill: "Flutter", ability: 3 },

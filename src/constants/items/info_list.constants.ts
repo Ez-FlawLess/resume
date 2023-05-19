@@ -29,8 +29,10 @@ export const INFO_LIST: InfoI[] = [
                     "Managed and continued the development of a gym subscription web app.",
                     "Created the website for Farda Insurance using Nextjs, Typescript and, Tailwind.",
                     "Created a panel for Dana Insurance using Nextjs, Typescript, and Material UI.",
-                    "Migrated the project to basic React with Vite in a way that the panel can be used for multiple insurance companies with completely different UIs but the same features and functionalities from the same source code."
-                ]
+                    "Migrated the project to basic React with Vite in a way that the panel can be used for multiple insurance companies with completely different UIs but the same features and functionalities from the same source code.",
+                    "Create a widget(white label) for buying cinema ticket using React, Tailwind and Rust.",
+                    "Create a labelling website for labelling and annotating data for ML using React, WASM and Rust.",
+                ],
             },
             {
                 title: "Online Support, SabaIdea, Tehran",
