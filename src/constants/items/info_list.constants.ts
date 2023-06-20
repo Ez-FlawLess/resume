@@ -18,7 +18,7 @@ export const INFO_LIST: InfoI[] = [
             },
             {
                 title: "Front End Developer, BasketAsia, Malaysia(Work From Home) - Part Time",
-                from: "April 2023",
+                from: "March 2023",
                 to: "Present",
                 works: [
                     "Working part time from home",
