@@ -22,8 +22,8 @@ export const INFO_LIST: InfoI[] = [
                 to: "Present",
                 works: [
                     "Working part time from home",
-                    "Developing a communication platform for an American telecommunication company using Angular",
-                    "Writing e2e tests and creating mock backend with Nestjs",
+                    "Develope a communication platform for an American telecommunication company using Angular",
+                    "Write e2e tests and create mock backend with Nestjs",
                 ],
             },
             {
@@ -42,6 +42,7 @@ export const INFO_LIST: InfoI[] = [
                     "Migrated the project to basic React with Vite in a way that the panel can be used for multiple insurance companies with completely different UIs but the same features and functionalities from the same source code.",
                     "Create a widget(white label) for buying cinema ticket using React, Tailwind and Rust.",
                     "Create a labelling website for labelling and annotating data for ML using React, WASM and Rust.",
+                    "Create a PWA finance application with Reactjs, Typescript, Vite and tailwind",
                 ],
             },
             {
