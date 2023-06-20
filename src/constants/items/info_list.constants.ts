@@ -17,7 +17,17 @@ export const INFO_LIST: InfoI[] = [
                 ],
             },
             {
-                title: "Front End Developer, HiWEB, Tehran",
+                title: "Front End Developer, BasketAsia, Malaysia(Work From Home) - Part Time",
+                from: "April 2023",
+                to: "Present",
+                works: [
+                    "Working part time from home",
+                    "Developing a communication platform for an American telecommunication company using Angular",
+                    "Writing e2e tests and creating mock backend with Nestjs",
+                ],
+            },
+            {
+                title: "Front End Developer, HiWEB, Tehran - Full Time",
                 from: "January 2021",
                 to: "Present",
                 works: [
