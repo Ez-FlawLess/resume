@@ -17,19 +17,29 @@ export const INFO_LIST: InfoI[] = [
                 ],
             },
             {
-                title: "Front End Developer, BasketAsia, Malaysia(Work From Home) - Part Time",
-                from: "March 2023",
+                title: "Front End Developer, BasketAsia, Malaysia(Work From Home) - Full Time",
+                from: "September 2023",
                 to: "Present",
                 works: [
+                    "continue work on the communication platform for an American telecommunication company using Angular",
+                    "Writing wrapper package for SIP.js to work in Blazor",
+                    "Develop Call features for a webapp written in Blazor",
+                ],
+            },
+            {
+                title: "Front End Developer, BasketAsia, Malaysia(Work From Home) - Part Time",
+                from: "March 2023",
+                to: "September 2023",
+                works: [
                     "Working part time from home",
-                    "Develope a communication platform for an American telecommunication company using Angular",
-                    "Write e2e tests and create mock backend with Nestjs",
+                    "Develop a communication platform for an American telecommunication company using Angular",
+                    "Write e2e tests and create mock backend for our tests with Nestjs",
                 ],
             },
             {
                 title: "Front End Developer, HiWEB, Tehran - Full Time",
                 from: "January 2021",
-                to: "Present",
+                to: "September 2023",
                 works: [
                     "Created a Website for the popular Football club Esteghlal F.C. using angular and StencilJS.",
                     "Created a UI library using StencilJS so that company developers could use the components in both React and Angular.",
