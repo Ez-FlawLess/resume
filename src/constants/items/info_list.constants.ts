@@ -14,12 +14,21 @@ export const INFO_LIST: InfoI[] = [
                     "Integrated the algorithm for an API service in which companies and people could purchase API keys using Nestjs, MongoDB, and Redis",
                     "Build a research registration web app for Hormozgan University of Medical Sciences using Nestjs, MongoDB, Nextjs, and Material UI",
                     "Rewrote the text searching algorithm and service with Golang and gRPC. currently in talks with gaming streaming websites",
+                    "Developing a cross-platform parking finder app (Flutter) powered by a scalable Rust backend and MongoDB storage"
+                ],
+            },
+            {
+                title: "Systems Programmer BasketAsia, Malaysia(Work From Home) - Full Time",
+                from: "November 2023",
+                to: "Present",
+                works: [
+                    "Implementing a WebRTC routing solution in Rust leveraging XDP for packet interception (layers 2-4) and a dynamic call registry via Unix sockets.",
                 ],
             },
             {
                 title: "Front End Developer, BasketAsia, Malaysia(Work From Home) - Full Time",
                 from: "September 2023",
-                to: "Present",
+                to: "November 2023",
                 works: [
                     "continue work on the communication platform for an American telecommunication company using Angular",
                     "Writing wrapper package for SIP.js to work in Blazor",

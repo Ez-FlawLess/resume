@@ -7,7 +7,7 @@ const Header: FC = () => {
                 Amir Ali Mohammadi
             </h1>
             <h3 className="text-white text-xl">
-                FULL STACK DEVELOPER
+                Systems Programmer (Web, Network, Embedded)
             </h3>
         </div>
     )
