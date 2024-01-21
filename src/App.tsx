@@ -27,13 +27,12 @@ function App() {
                         <Skills 
                             title="Skills"
                             skills={[
+                                {skill: "Rust", ability: 5 },
                                 {skill: "React", ability: 5 },
                                 {skill: "Next.js", ability: 5 },
                                 {skill: "Nest.js", ability: 5 },
-                                {skill: "Rust", ability: 4 },
                                 {skill: "Golang", ability: 4 },
                                 {skill: "Typescript", ability: 4 },
-                                {skill: "WASM (Rust)", ability: 4 },
                                 {skill: "MongoDB", ability: 4 },
                                 {skill: "Angular", ability: 4 },
                                 {skill: "Flutter", ability: 3 },
