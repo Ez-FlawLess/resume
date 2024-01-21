@@ -37,6 +37,7 @@ function App() {
                                 {skill: "Angular", ability: 4 },
                                 {skill: "Flutter", ability: 3 },
                                 {skill: "nginx", ability: 3 },
+                                {skill: "C", ability: 3 },
                             ]}
                         />
                         <Skills 
