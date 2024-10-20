@@ -14,7 +14,7 @@ export const INFO_LIST: InfoI[] = [
                     "Integrated the algorithm for an API service in which companies and people could purchase API keys using Nestjs, MongoDB, and Redis",
                     "Build a research registration web app for Hormozgan University of Medical Sciences using Nestjs, MongoDB, Nextjs, and Material UI",
                     "Rewrote the text searching algorithm and service with Golang and gRPC. currently in talks with gaming streaming websites",
-                    "Developing a cross-platform parking finder app (Flutter) powered by a scalable Rust backend and MongoDB storage"
+                    "Developed the backend for a cross-platform parking finder app powered by Rust and MongoDB",
                 ],
             },
             {
@@ -22,7 +22,10 @@ export const INFO_LIST: InfoI[] = [
                 from: "November 2023",
                 to: "Present",
                 works: [
-                    "Implementing a WebRTC routing solution in Rust leveraging XDP for packet interception (layers 2-4) and a dynamic call registry via Unix sockets.",
+                    "Implemented a WebRTC routing solution in Rust leveraging XDP for packet interception (layers 2-4) and a dynamic call registry via Unix sockets.",
+                    "Create an API Gateway using Rust to replace the AWS service that our company is using.",
+                    "Taught Rust programming classes to our company's employees",
+                    "Writing a dynamic HID library for sending commands and receiving events from headsets connected to the device, using Go and Rust."
                 ],
             },
             {
