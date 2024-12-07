@@ -25,7 +25,7 @@ export const INFO_LIST: InfoI[] = [
                     "Implemented a WebRTC routing solution in Rust leveraging XDP for packet interception (layers 2-4) and a dynamic call registry via Unix sockets.",
                     "Create an API Gateway using Rust to replace the AWS service that our company is using.",
                     "Taught Rust programming classes to our company's employees",
-                    "Writing a dynamic HID library for sending commands and receiving events from headsets connected to the device, using Go and Rust."
+                    "Writing a dynamic HID library for sending commands and receiving events from headsets connected to the device, using Rust and an SDK written in C# that communicates using FFI."
                 ],
             },
             {
