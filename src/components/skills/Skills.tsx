@@ -10,13 +10,13 @@ const SkillItem: FC<SkillI> = props => (
             {Array(5).fill(0).map((_, index) => (
                 <div className={`h-3 relative group ${index < props.ability ? "test" : ""} `}>
                     <div 
-                        className="absolute w-1/2 top-0 left-0 border-b-10 border-b-skill-bg group-[.test]:border-b-blue border-l-4 border-l-transparent"
+                        className="absolute w-2/3 top-0 left-0 border-b-10 border-b-skill-bg group-[.test]:border-b-blue border-l-4 border-l-transparent"
                     />
-                    <div 
+                    {/* <div 
                         className="absolute w-1/2 top-0 h-[10px] left-1/4 group-[.test]:bg-blue"
-                    />
+                    /> */}
                     <div
-                        className="absolute w-1/2 top-0 right-0 border-t-10 border-t-skill-bg group-[.test]:border-t-blue border-r-4 border-r-transparent"
+                        className="absolute w-2/3 top-0 right-0 border-t-10 border-t-skill-bg group-[.test]:border-t-blue border-r-4 border-r-transparent"
                     />
                 </div>
             ))}

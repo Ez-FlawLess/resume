@@ -12,9 +12,11 @@ const Info: FC<InfoI> = props => {
                     <h3 className="text-black text-xl mb-1">
                         {infoItem.title}
                     </h3>
-                    <h6 className="text-sub-text-color text-sm mb-4">
-                        {infoItem.from} - {infoItem.to}
-                    </h6>
+                    {infoItem.from && infoItem.to && (
+                        <h6 className="text-sub-text-color text-sm mb-4">
+                            {infoItem.from} - {infoItem.to}
+                        </h6>
+                    )}
                     <ul className="list-disc pl-10">
                         {infoItem.works.map((work, index) => (
                             <li key={index}>
