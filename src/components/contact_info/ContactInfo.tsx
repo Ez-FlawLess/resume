@@ -17,11 +17,11 @@ const CONTACT_INFO_ITEMS: ContactInfoItemI[] = [
     },
     {
         icon: PhoneIcon,
-        text: "+989201771378",
+        text: "7891 807 0912",
     },
     {
         icon: LocationIcon,
-        text: "Tehran, Iran"
+        text: "تهران"
     },
 ]
 

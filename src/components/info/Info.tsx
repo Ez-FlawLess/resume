@@ -9,19 +9,17 @@ const Info: FC<InfoI> = props => {
             </h2>
             {props.list.map(infoItem => (
                 <div className="mb-4" key={infoItem.title}>
-                    <h3 className="text-black text-xl mb-1">
+                    <h3 className="text-black text-xl font-medium mb-1">
                         {infoItem.title}
                     </h3>
                     {infoItem.from && infoItem.to && (
-                        <h6 className="text-sub-text-color text-sm mb-4">
+                        <h6 className="text-sub-text-color text-sm font-medium mb-4">
                             {infoItem.from} - {infoItem.to}
                         </h6>
                     )}
                     <ul className="list-disc pl-10">
                         {infoItem.works.map((work, index) => (
-                            <li key={index}>
-                                {work}
-                            </li>
+                            <li key={index} dangerouslySetInnerHTML={{__html: work}} />
                         ))}
                     </ul>
                 </div>

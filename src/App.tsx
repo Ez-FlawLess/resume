@@ -15,7 +15,7 @@ function App() {
                     className="border-t border-border-color mt-6"
                 />
                 <div className="grid grid-cols-12">
-                    <div className="col-span-9 border-r border-border-color pt-12 pr-10">
+                    <div className="col-span-9 border-l border-border-color pt-12 pr-10">
                         {INFO_LIST.map(info => (
                             <Info 
                                 key={info.title}
@@ -25,7 +25,7 @@ function App() {
                     </div>
                     <div className="col-span-3 pt-12 px-10">
                         <Skills 
-                            title="Skills"
+                            title="مهارت‌ها"
                             skills={[
                                 {skill: "Rust", ability: 5 },
                                 {skill: "React", ability: 5 },

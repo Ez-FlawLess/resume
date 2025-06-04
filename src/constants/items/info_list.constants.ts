@@ -2,107 +2,106 @@ import { InfoI } from "../../types/info.types";
 
 export const INFO_LIST: InfoI[] = [
     {
-        title: "Employment History",
+        title: "سوابق شغلی",
         list: [
             {
-                title: "Freelance and Personal Projects",
-                from: "November 2019",
-                to: "Present",
+                title: "برنامه‌نویس سیستم، رایانکار پیشرو دانش، تهران (دورکاری) - تمام وقت",
+                from: "آبان ۱۴۰۲", // November 2023
+                to: "فروردین ۱۴۰۴",     // Present
                 works: [
-                    "Build a website for a Pistachio selling company using expressjs (2019)",
-                    "Came up with a fast algorithm for searching words in text in a way that it could be used to check chat messages in gaming streaming websites using typescript (2021)",
-                    "Integrated the algorithm for an API service in which companies and people could purchase API keys using Nestjs, MongoDB, and Redis (2021)",
-                    "Build a research registration web app for Hormozgan University of Medical Sciences using Nestjs, MongoDB, Nextjs, and Material UI (2022)",
-                    "Rewrote the text searching algorithm and service with Golang and gRPC. currently in talks with gaming streaming websites (2022)",
-                    "Developed the backend for a cross-platform parking finder app powered by Rust and MongoDB (2024)",
-                    "Wrote bare-metal code using Rust without any library on Cortex-M4 (STM32F303VC) for R&D request (2025)",
+                    "پیاده‌سازی یک راهکار WebRTC Routing با Rust با بهره‌گیری از XDP برای packet interception (layers 2-4) و یک dynamic call registry از طریق Unix sockets.",
+                    "ایجاد یک API Gateway با استفاده از Rust برای جایگزینی سرویس AWS مورد استفاده شرکت.",
+                    "تدریس کلاس‌های برنامه‌نویسی Rust به کارمندان شرکت.",
+                    "نوشتن یک کتابخانه Dynamic HID برای ارسال دستورات و دریافت رویدادها از هدست‌های متصل به دستگاه، با استفاده از Rust و نوشتن یک SDK به زبان <bdi>C#</bdi> که با استفاده از FFI ارتباط برقرار می‌کند."
                 ],
             },
             {
-                title: "Systems Programmer BasketAsia, Malaysia(Work From Home) - Full Time",
-                from: "November 2023",
-                to: "Present",
+                title: "توسعه‌دهنده فرانت‌اند، رایانکار پیشرو دانش، تهران (دورکاری) - تمام وقت",
+                from: "شهریور ۱۴۰۲", // September 2023
+                to: "آبان ۱۴۰۲",    // November 2023
                 works: [
-                    "Implemented a WebRTC routing solution in Rust leveraging XDP for packet interception (layers 2-4) and a dynamic call registry via Unix sockets.",
-                    "Create an API Gateway using Rust to replace the AWS service that our company is using.",
-                    "Taught Rust programming classes to our company's employees",
-                    "Wrote a dynamic HID library for sending commands and receiving events from headsets connected to the device, using Rust and an SDK written in C# that communicates using FFI."
+                    "ادامه کار بر روی پلتفرم ارتباطی با استفاده از Angular.",
+                    "نوشتن wrapper برای SIP.js جهت کار در Blazor.",
+                    "توسعه ویژگی‌های تماس برای یک وب‌اپلیکیشن نوشته شده با Blazor."
                 ],
             },
             {
-                title: "Front End Developer, BasketAsia, Tehran(Work From Home) - Full Time",
-                from: "September 2023",
-                to: "November 2023",
+                title: "توسعه‌دهنده فرانت‌اند، رایانکار پیشرو دانش، تهران (دورکاری) - پاره وقت",
+                from: "اردیبهشت ۱۴۰۲", // May 2023
+                to: "شهریور ۱۴۰۲",   // September 2023
                 works: [
-                    "continue work on the communication platform for an American telecommunication company using Angular",
-                    "Writing wrapper package for SIP.js to work in Blazor",
-                    "Develop Call features for a webapp written in Blazor",
+                    "توسعه یک پلتفرم ارتباطی با استفاده از Angular.",
+                    "نوشتن تست‌های e2e و ایجاد بک‌اند mock برای تست‌ها با Nestjs."
                 ],
             },
             {
-                title: "Front End Developer, Rayankar Pishro Danesh, Tehran(Work From Home) - Part Time",
-                from: "May 2023",
-                to: "September 2023",
+                title: "توسعه‌دهنده فرانت‌اند، های‌وب، تهران - تمام وقت",
+                from: "بهمن ۱۳۹۹",   // January 2021
+                to: "شهریور ۱۴۰۲", // September 2023
                 works: [
-                    "Working part time from home",
-                    "Develop a communication platform for an American telecommunication company using Angular",
-                    "Write e2e tests and create mock backend for our tests with Nestjs",
+                    "ایجاد یک وب‌سایت برای باشگاه فوتبال استقلال با استفاده از Angular و StencilJS.",
+                    "ایجاد یک کتابخانه UI با استفاده از StencilJS تا توسعه‌دهندگان شرکت بتوانند از کامپوننت‌ها هم در React و هم در Angular استفاده کنند.",
+                    "افزودن ویژگی‌ها و به‌روزرسانی یک وب‌سایت ثبت‌نام سفر که با Angular ساخته شده بود.",
+                    "بازسازی وب‌سایت خبری با Nextjs.",
+                    "ایجاد یک کتابخانه React به نام flawless-ui برای سرعت بخشیدن به توسعه و حذف خطاهای رایج برای پروژه‌های شرکت و انتشار آن در NPM.",
+                    "مدیریت و ادامه توسعه یک وب اپلیکیشن پلتفرم خدمات ورزشی و رفاهی. (SELFiT)",
+                    "ایجاد وب‌سایت برای بیمه فردا با استفاده از Nextjs، Typescript و Tailwind.",
+                    "ایجاد یک پنل برای بیمه دانا با استفاده از Nextjs، Typescript و Material UI.",
+                    "انتقال پروژه به React با Vite به گونه‌ای که پنل بتواند برای چندین شرکت بیمه با UIهای کاملاً متفاوت اما ویژگی‌ها و عملکردهای یکسان از یک سورس کد واحد استفاده شود.",
+                    "ایجاد یک ویجت (white label) برای خرید بلیت سینما با استفاده از React، Tailwind و Rust.",
+                    "ایجاد یک وب‌سایت برچسب‌گذاری (labelling) و data annotation برای یادگیری ماشین (ML) با استفاده از React، WASM و Rust.",
+                    "ایجاد یک اپلیکیشن مالی PWA با Reactjs، Typescript، Vite و Tailwind."
                 ],
             },
             {
-                title: "Front End Developer, HiWEB, Tehran - Full Time",
-                from: "January 2021",
-                to: "September 2023",
+                title: "پشتیبانی آنلاین، صباایده، تهران",
+                from: "اردیبهشت ۱۳۹۹", // May 2020
+                to: "آبان ۱۳۹۹",    // November 2020
                 works: [
-                    "Created a Website for the popular Football club Esteghlal F.C. using angular and StencilJS.",
-                    "Created a UI library using StencilJS so that company developers could use the components in both React and Angular.",
-                    "Tasked to add features and update a travel registration website which was built using Angular.",
-                    "Rebuild the website of a major news site in Iran with Nextjs.",
-                    "Created a React library named flawless-ui to speed up development and elimenate common errors for company projects and published to NPM",
-                    "Managed and continued the development of a gym subscription web app.",
-                    "Created the website for Farda Insurance using Nextjs, Typescript and, Tailwind.",
-                    "Created a panel for Dana Insurance using Nextjs, Typescript, and Material UI.",
-                    "Migrated the project to basic React with Vite in a way that the panel can be used for multiple insurance companies with completely different UIs but the same features and functionalities from the same source code.",
-                    "Create a widget(white label) for buying cinema ticket using React, Tailwind and Rust.",
-                    "Create a labelling website for labelling and annotating data for ML using React, WASM and Rust.",
-                    "Create a PWA finance application with Reactjs, Typescript, Vite and tailwind",
+                    "پشتیبان آنلاین آپارات لایو.",
+                    "به دلیل کرونا از خانه کار می‌کردم (دورکاری).",
+                    "ساعت کاری از ۶ بعد از ظهر تا ۱۲ شب در روزهای کاری بود، همچنین باید به تمام پیام‌های کاربران در آخر هفته‌ها و تعطیلات پاسخ می‌دادم.",
+                    "در اوقات فراغت مشغول یادگیری توسعه وب بودم.",
+                    "کار را برای مطالعه تمام وقت توسعه وب و یافتن شغل به عنوان توسعه‌دهنده وب ترک کردم."
                 ],
             },
             {
-                title: "Online Support, SabaIdea, Tehran",
-                from: "May 2020",
-                to: "November 2020",
+            title: "فریلنس و پروژه‌های شخصی",
+            from: "آبان ۱۳۹۸", // November 2019
+            to: "تاکنون",     // Present
+            works: [
+                "ساخت وب‌سایت با استفاده از expressjs برای شرکت صادرات پسته (۱۳۹۸)",
+                "ساخت یک الگوریتم سریع برای جستجوی کلمات در متن برای بررسی پیام‌های چت در وب‌سایت‌های استریم بازی (۱۴۰۰)",
+                "ارائه الگوریتم با استفاده از Nestjs، MongoDB و Redis به صورت API برای استفاده توسط شرکت‌ها و افراد (۱۴۰۰)",
+                "ساخت یک وب اپلیکیشن ثبت پژوهش برای دانشگاه علوم پزشکی هرمزگان با استفاده از Nestjs، MongoDB، Nextjs و Material UI <bdi>(۱۴۰۱)</bdi>",
+                "بازنویسی الگوریتم جستجوی متن و سرویس با Golang و gRPC. <bdi>(۱۴۰۱)</bdi>",
+                "توسعه بک‌اند برای یک اپلیکیشن پارک‌یاب کراس پلتفرم با استفاده از Rust و MongoDB <bdi>(۱۴۰۳)</bdi>",
+                "نوشتن کد bare-metal با استفاده از Rust بدون هیچ کتابخانه‌ای بر روی Cortex-M4(STM32F303VC) برای درخواست تحقیق و توسعه (R&D) (۱۴۰۴)",
+            ],
+        },
+        ],
+    },
+    {
+        title: "دوره‌های کارآموزی",
+        list: [
+            {
+                title: "اپراتور NOC، های‌وب، تهران",
+                from: "خرداد ۱۳۹۷",  // June 2018
+                to: "شهریور ۱۳۹۷", // September 2018
                 works: [
-                    "Was Online Support for Aparat Live, the most popular streaming service in Iran.",
-                    "Worked from home due to corona.",
-                    "The work time was 6 pm to 12 pm on workdays, also had to answer all user messages on weekends and holidays.",
-                    "Was studying Web Development in my free time.",
-                    "Left the Job to study Web Development full-time and find a job as a Web Developer.",
+                    "به عنوان کارآموز در مرکز عملیات شبکه (NOC) کار کردم و دوره <bdi>Network+</bdi> را در تابستان قبل از ورود به دانشگاه گذراندم.",
+                    "همچنین برای چند هفته قبل از رفتن به دانشگاه به عنوان پشتیبانی مشتری و فروشنده کار کردم."
                 ],
             }
         ],
     },
     {
-        title: "Internships",
+        title: "تحصیلات",
         list: [
             {
-                title: "NOC Operator, HiWEB, Tehran",
-                from: "June 2018",
-                to: "September 2018",
-                works: [
-                    "Worked as an intern at the Network Operation Center or NOC and studied Network+ in the summer before going to university.",
-                    "Also Worked as Customer support and Salesman for a couple of weeks before leaving for university",
-                ],
-            }
-        ],
-    },
-    {
-        title: "Education",
-        list: [
-            {
-                title: "Computer Science, Islamic Azad University, Central Tehran Branch, Tehran",
-                from: "September 2018",
-                to: "Present",
+                title: "مهندسی کامپیوتر، دانشگاه آزاد اسلامی، واحد تهران مرکزی، تهران",
+                from: "شهریور ۱۳۹۷", // September 2018
+                to: "تاکنون",     // Present
                 works: [],
             }
         ],
