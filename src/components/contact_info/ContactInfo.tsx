@@ -2,38 +2,47 @@ import { FC } from "react";
 import EmailIcon from "../../icons/Email";
 import LocationIcon from "../../icons/Location";
 import PhoneIcon from "../../icons/Phone";
+import LinkedInIcon from "../../icons/LinkedIn";
 
 interface ContactInfoItemI {
     icon: FC<{
         className: string,
     }>,
     text: string,
+    link?: string,
 }
 
 const CONTACT_INFO_ITEMS: ContactInfoItemI[] = [
     {
         icon: EmailIcon,
         text: "amirali23mohammadi2@gmail.com",
+        link: "mailto:amirali23mohammadi2@gmail.com",
     },
     {
         icon: PhoneIcon,
         text: "+98 912 807 7891",
+        link: "tel:+989128077891",
     },
     {
         icon: LocationIcon,
         text: "Tehran, Iran"
     },
+    {
+        icon: LinkedInIcon,
+        text: "amirali23mohammadi",
+        link: "https://www.linkedin.com/in/amirali23mohammadi/",
+    }
 ]
 
 const ContactInfoItem: FC<ContactInfoItemI> = props => (
-    <div className="flex justify-center items-center gap-x-2">
+    <a className="flex justify-center items-center gap-x-2" href={props.link}>
         {props.icon({
             className: "h-4",
         })}
         <div className="text-base text-text-color">
             {props.text}
         </div>
-    </div>
+    </a>
 )
 
 const ContactInfo: FC = () => {
