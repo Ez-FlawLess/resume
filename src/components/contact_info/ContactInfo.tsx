@@ -17,7 +17,7 @@ const CONTACT_INFO_ITEMS: ContactInfoItemI[] = [
     },
     {
         icon: PhoneIcon,
-        text: "+989201771378",
+        text: "+98 912 807 7891",
     },
     {
         icon: LocationIcon,
@@ -40,7 +40,7 @@ const ContactInfo: FC = () => {
     return (
         <div className="flex items-center justify-start gap-x-24">
             {CONTACT_INFO_ITEMS.map(item => (
-                <ContactInfoItem 
+                <ContactInfoItem
                     key={item.text}
                     {...item}
                 />
