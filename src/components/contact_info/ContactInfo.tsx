@@ -3,6 +3,7 @@ import EmailIcon from "../../icons/Email";
 import LocationIcon from "../../icons/Location";
 import PhoneIcon from "../../icons/Phone";
 import LinkedInIcon from "../../icons/LinkedIn";
+import GithubIcon from "../../icons/Github";
 
 interface ContactInfoItemI {
     icon: FC<{
@@ -24,14 +25,19 @@ const CONTACT_INFO_ITEMS: ContactInfoItemI[] = [
         link: "tel:+989128077891",
     },
     {
-        icon: LocationIcon,
-        text: "Tehran, Iran"
-    },
-    {
         icon: LinkedInIcon,
         text: "amirali23mohammadi",
         link: "https://www.linkedin.com/in/amirali23mohammadi/",
-    }
+    },
+    {
+      icon: GithubIcon,
+      text: "Github",
+      link: "https://github.com/Ez-FlawLess",
+  },
+  {
+      icon: LocationIcon,
+      text: "Tehran, Iran"
+  },
 ]
 
 const ContactInfoItem: FC<ContactInfoItemI> = props => (

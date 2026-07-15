@@ -11,36 +11,39 @@ function App() {
             <Header />
             <div className="px-16 pt-6">
                 <ContactInfo />
-                <div 
+                <div
                     className="border-t border-border-color mt-6"
                 />
                 <div className="grid grid-cols-12">
                     <div className="col-span-9 border-r border-border-color pt-12 pr-10">
                         {INFO_LIST.map(info => (
-                            <Info 
+                            <Info
                                 key={info.title}
                                 {...info}
                             />
                         ))}
                     </div>
                     <div className="col-span-3 pt-12 px-10">
-                        <Skills 
+                        <Skills
                             title="Skills"
                             skills={[
                                 {skill: "Rust", ability: 5 },
-                                {skill: "React", ability: 5 },
-                                {skill: "Next.js", ability: 5 },
-                                {skill: "Nest.js", ability: 5 },
                                 {skill: "Golang", ability: 4 },
+                                {skill: "XDP", ability: 4 },
+                                {skill: "React", ability: 4 },
+                                {skill: "Next.js", ability: 4 },
+                                {skill: "Nest.js", ability: 4 },
                                 {skill: "Typescript", ability: 4 },
                                 {skill: "MongoDB", ability: 4 },
                                 {skill: "Angular", ability: 4 },
                                 {skill: "Flutter", ability: 3 },
-                                {skill: "nginx", ability: 3 },
-                                {skill: "C", ability: 3 },
+                              { skill: "C", ability: 3 },
+                              { skill: "Assembly", ability: 3 },
+                                {skill: "Linux", ability: 3 },
+                                {skill: "Postgresql", ability: 2 },
                             ]}
                         />
-                        <Skills 
+                        <Skills
                             title="Languages"
                             skills={[
                                 {skill: "English", ability: 5},
