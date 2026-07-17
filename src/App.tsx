@@ -50,6 +50,21 @@ function App() {
                                 {skill: "Persian", ability: 5},
                             ]}
                         />
+                        <Skills
+                            title="Books"
+                            skills={[
+                                {skill: "Computer Systems: A Programmer's Perspective", ability: 5},
+                              { skill: "Rust Atomics and Locks", ability: 5 },
+                              { skill: "Async Rust (Microsoft RT)", ability: 5 },
+                              { skill: "Rust Patterns (Microsoft RT)", ability: 5 },
+                              { skill: "Type-Driven Correctness in Rust (Microsoft RT)", ability: 5 },
+                              { skill: "Rust Engineering Practices (Microsoft RT)", ability: 5 },
+                              { skill: "Learning EBPF", ability: 4 },
+                              { skill: "Async Rust (O'Reilly)", ability: 3 },
+                              { skill: "Designing Data-Intensive Applications", ability: 2 },
+
+                            ]}
+                        />
                     </div>
                 </div>
             </div>
