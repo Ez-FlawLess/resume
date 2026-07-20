@@ -9,11 +9,12 @@ export const INFO_LIST: InfoI[] = [
                 from: "December 2025",
                 to: "Present",
                 works: [
-                  "Wrote the backend for a steel sheet cutting company to manage inventory and orders, with the main focus being the ability to autoplan cuts based on orders and inventory using AI to speed up the work of the engineers doing the planning and helping them make more efficient plans.",
+                  "Wrote the backend for a steel sheet cutting company with Nestjs to manage inventory and orders, with the main focus being the ability to autoplan cuts based on orders and inventory using AI to speed up the work of the engineers doing the planning and helping them make more efficient plans.",
                   "Created a video conferencing platform with recording, transcription, and an AI processing layer that extracts action items, summaries, and structural meeting notes.",
-                  "Created an internal panel allowing users to instantly spin up isolated containerized development environments (such as OpenCode and OpenDesign) accessible directly within the browser.",
+                  "Created an internal system and panel in Go allowing users to instantly spin up isolated containerized development environments (such as OpenCode and OpenDesign) accessible directly within the browser.",
                   "Orchestrated container networking, tooling stacks, and documentation services within Portainer and Docker-managed environments.",
-                  "Configured virtual machines and local hosting environments for open-source AI models."
+                  "Configured virtual machines and local hosting environments for open-source AI models.",
+                  "Built a rotating proxy pool in Go with concurrent health testing and automatic failover for internal use."
                 ],
             },
             {

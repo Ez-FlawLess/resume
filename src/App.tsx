@@ -37,8 +37,8 @@ function App() {
                                 {skill: "MongoDB", ability: 4 },
                                 {skill: "Angular", ability: 4 },
                                 {skill: "Flutter", ability: 3 },
-                              { skill: "C", ability: 3 },
-                              { skill: "Assembly", ability: 3 },
+                                {skill: "C", ability: 3 },
+                                {skill: "Assembly", ability: 3 },
                                 {skill: "Linux", ability: 3 },
                                 {skill: "Postgresql", ability: 2 },
                             ]}
@@ -53,16 +53,15 @@ function App() {
                         <Skills
                             title="Books"
                             skills={[
-                                {skill: "Computer Systems: A Programmer's Perspective", ability: 5},
-                              { skill: "Rust Atomics and Locks", ability: 5 },
-                              { skill: "Async Rust (Microsoft RT)", ability: 5 },
-                              { skill: "Rust Patterns (Microsoft RT)", ability: 5 },
-                              { skill: "Type-Driven Correctness in Rust (Microsoft RT)", ability: 5 },
-                              { skill: "Rust Engineering Practices (Microsoft RT)", ability: 5 },
-                              { skill: "Learning EBPF", ability: 4 },
-                              { skill: "Async Rust (O'Reilly)", ability: 3 },
-                              { skill: "Designing Data-Intensive Applications", ability: 2 },
-
+                                { skill: "Computer Systems: A Programmer's Perspective", ability: 5 },
+                                { skill: "Rust Atomics and Locks", ability: 5 },
+                                { skill: "Async Rust (Microsoft RT)", ability: 5 },
+                                { skill: "Rust Patterns (Microsoft RT)", ability: 5 },
+                                { skill: "Type-Driven Correctness in Rust (Microsoft RT)", ability: 5 },
+                                { skill: "Rust Engineering Practices (Microsoft RT)", ability: 5 },
+                                { skill: "Learning EBPF", ability: 4 },
+                                { skill: "Async Rust (O'Reilly)", ability: 3 },
+                                { skill: "Designing Data-Intensive Applications", ability: 2 },
                             ]}
                         />
                     </div>
