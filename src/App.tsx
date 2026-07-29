@@ -61,7 +61,7 @@ function App() {
                                 { skill: "Rust Engineering Practices (Microsoft RT)", ability: 5 },
                                 { skill: "Learning EBPF", ability: 4 },
                                 { skill: "Async Rust (O'Reilly)", ability: 3 },
-                                { skill: "Designing Data-Intensive Applications", ability: 2 },
+                                { skill: "Designing Data-Intensive Applications", ability: 3 },
                             ]}
                         />
                     </div>

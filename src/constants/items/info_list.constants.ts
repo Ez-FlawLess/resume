@@ -14,7 +14,8 @@ export const INFO_LIST: InfoI[] = [
                   "Created an internal system and panel in Go allowing users to instantly spin up isolated containerized development environments (such as OpenCode and OpenDesign) accessible directly within the browser.",
                   "Orchestrated container networking, tooling stacks, and documentation services within Portainer and Docker-managed environments.",
                   "Configured virtual machines and local hosting environments for open-source AI models.",
-                  "Built a rotating proxy pool in Go with concurrent health testing and automatic failover for internal use."
+                  "Built a rotating proxy pool in Go with concurrent health testing and configurable failover strategies for internal use.",
+                  "Created an AI code review system for PRs using TypeScript, Trigger.dev, and Deep Agents (LangChain)."
                 ],
             },
             {
