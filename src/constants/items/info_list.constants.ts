@@ -5,7 +5,7 @@ export const INFO_LIST: InfoI[] = [
         title: "Employment History",
         list: [
             {
-                title: "Deputy CTO, Nabn, Tehran",
+                title: "Systems Programmer, Nabn, Tehran",
                 from: "December 2025",
                 to: "Present",
                 works: [
